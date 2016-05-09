@@ -6,5 +6,15 @@
   #end
 </ul>
 
+<form action="/stylists/$stylist.getId()" method="post">
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text">
+  <button type="submit" class="btn btn-info" id="update-stylist">Update Stylist</button>
+</form>
+
+<form action="/stylists/$stylist.getId()/delete" method="post">
+  <button type="submit" class="btn btn-danger" id="delete-stylist">Delete Stylist</button>
+</form>
+
 <a href="/stylists/$stylist.getId()/clients/new">Add a new client</a>
 <a href="/stylists">All stylists</a>
