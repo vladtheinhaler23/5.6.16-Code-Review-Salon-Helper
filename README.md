@@ -32,8 +32,7 @@ $ psql hair_salon < hair_salon.sql
 Navigate back to the directory where this repository has been cloned and run gradle:
 ```
 $ gradle run
-
-
+```
 
 ## Known Bugs
 
