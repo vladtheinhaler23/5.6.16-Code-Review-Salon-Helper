@@ -8,10 +8,30 @@
 
 _This is a java web app that allows a user to enter a stylist into a DB and then added seperate clients to the Stylist in the DB._
 
-## _Setup/Installation Requirements_
+## Setup
 
-* _Clone the Salon Helper Repo_
-* _Compile and run the code in the Command Line_
+Clone this repository:
+```
+$ cd ~/Desktop
+$ git clone https://github.com/LINK_TO_YOUR_REPO
+$ cd CLONED_DIRECTORY
+```
+
+Open terminal and run Postgres:
+```
+$ postgres
+```
+
+Open a new tab in terminal and create the `best-restaurants` database:
+```
+$ psql
+$ CREATE DATABASE hair_salon;
+$ psql hair_salon < hair_salon.sql
+```
+
+Navigate back to the directory where this repository has been cloned and run gradle:
+```
+$ gradle run
 
 
 
